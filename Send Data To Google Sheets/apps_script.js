@@ -1,4 +1,4 @@
-var ss = SpreadsheetApp.openById('1x535R9j_VOgoXeU77nWMcySkTJzbjETwoRjrCBzWMZA');
+var ss = SpreadsheetApp.openById('1thDuXPxaFoqGCFoONC1C1olYVY0DZ2fDijKhX4-zj9k');
 var li_s = ss.getSheetByName('LinkedIn');
 var gh_s = ss.getSheetByName('github');
 var r_s = ss.getSheetByName('resumes');
