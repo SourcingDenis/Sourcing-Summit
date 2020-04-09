@@ -125,7 +125,7 @@ function doGet(e){
   ];
     var row = [r_basic];
     li_s.getRange((lr+1),1,row.length,row[0].length).setValues(row);
-return HtmlService.createHtmlOutput('<div style="background: #004471; color: #fff; width: 800px; height: 600px;"><div>'+firstname+' '+lastname+' was added to your <a style="color: #fcba03;" href="https://docs.google.com/spreadsheets/d/1x535R9j_VOgoXeU77nWMcySkTJzbjETwoRjrCBzWMZA">spreadsheet</a></div></div>')
+return HtmlService.createHtmlOutput('<div style="background: #004471; color: #fff; width: 800px; height: 600px;"><div>'+firstname+' '+lastname+' was added to your <a style="color: #fcba03;" href="https://docs.google.com/spreadsheets/d/1thDuXPxaFoqGCFoONC1C1olYVY0DZ2fDijKhX4-zj9k">spreadsheet</a></div></div>')
   }//if from Linkedin
 
   if(dat.from == 'github'){
